@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nocollision",
+  "version": "${version}",
+  "name": "NoCollision",
+  "description": "Disable collision for specific mobs and for players!",
+  "authors": [
+    "_Nihilanth"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nocollision/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nihilanth.nocollision.Nocollision"
+    ]
+  },
+  "mixins": [
+    "nocollision.mixins.json",
+    {
+      "config": "nocollision.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

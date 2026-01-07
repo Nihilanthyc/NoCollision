@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nihilanth.nocollision.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityCollisionMixin",
+    "EntityPushMixin",
+    "LivingEntityDamageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
