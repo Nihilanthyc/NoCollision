@@ -1,13 +1,8 @@
 package me.nihilanth.nocollision.mixin;
 
-import me.nihilanth.nocollision.config.CollisionConfig;
-import me.nihilanth.nocollision.config.CollisionRule;
-import me.nihilanth.nocollision.config.MobConfig;
 import me.nihilanth.nocollision.logic.CollisionRules;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.SpawnGroup;
-import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
