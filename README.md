@@ -4,6 +4,9 @@
 
 It allows you to disable or fine-tune collision between **players**, **mobs**, and **players vs mobs**, making movement smoother and gameplay more flexible — especially on crowded servers.
 
+> ⚠️ **MOD MADE USING AI AND STILL IN TESTING STAGE!**  
+> This mod was developed with the assistance of AI and is currently in an active testing phase.  
+> Unexpected behavior or bugs may occur. Use at your own risk.
 ---
 
 ## ✨ Features
